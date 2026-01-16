@@ -73,3 +73,9 @@ button {
 .btnr:hover {
     background-color: rgb(0, 155, 0);
 }
+
+@media screen and (max-width: 750px) {
+    .banner {
+        flex-direction: column;
+    }
+}
